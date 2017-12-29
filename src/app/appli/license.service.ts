@@ -10,6 +10,10 @@ export class LicensesService {
     }
 
     oneLicense() {
-        return new License('Test', 'The Best');
+        return new License('testje', 'The Best');
+    }
+
+    findId(id: number) {
+        return this.Licenses[id]
     }
 }
